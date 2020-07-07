@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/login.min.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.staticfile.org/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-mid">
+            <a href="http://localhost/projectTest/dist/index.html" class="logo"></a>
+        </div>
+        <div class="line"></div>
+    </header>
+    <div class="login">
+        <h2>登录</h2>
+        <div class="loginWays">
+            <span class="active">邮箱</span>
+            <span>手机号</span>
+        </div>
+        <div class="email">
+            <input type="text" placeholder="邮箱" id="mail">
+        </div>
+        <p class="tips tips1">请输入您正确的邮箱</p>
+        <div class="tel">
+            <input type="text" placeholder="手机号">
+        </div>
+        <div class="pwd">
+            <input type="password" placeholder="密码" id="pwd">
+            <span class="iconfont icon-yincangbukejian"></span>
+        </div>
+        <p class="tips tips2">密码是必填项</p>
+        <div class="check">
+            <span class="checkbox">√</span>
+            <em>记住我的账号</em>
+            <i>忘记密码？</i>
+        </div>
+        <div class="loginBtn">登录</div>
+        <p class="tip">还没有账号？</p>
+        <div class="registerBtn">注册</div>
+    </div>
+    <footer>
+        <ul class="foot-top">
+            <li>
+                <img src="../img/wide-choices@2x.da698b64.png" alt="">
+                <div>
+                    <h2>自营商品</h2>
+                    <p>发现全球正品好货</p>
+                </div>
+            </li>
+            <li>
+                <img src="../img/affordable@2x.aeb33dbd.png" alt="">
+                <div>
+                    <h2>高性价比</h2>
+                    <p>专注为你省时省钱</p>
+                </div>
+            </li>
+            <li>
+                <img src="../img/global-reviews@2x.c7de85af.png" alt="">
+                <div>
+                    <h2>全球评论</h2>
+                    <p>参阅全球买家评论</p>
+                </div>
+            </li>
+            <li>
+                <img src="../img/secure@2x.4e79905b.png" alt="">
+                <div>
+                    <h2>安心购物</h2>
+                    <p>购物流程安全可靠</p>
+                </div>
+            </li>
+        </ul>
+        <div class="foot-mid">
+            <div class="box box1">
+                <h3>Gshopper App</h3>
+                <span class="iconfont icon-shouji"></span>
+                <em>下载 iOS 或安卓客户端</em>
+            </div>
+            <div class="box box2">
+                <h3>合作品牌</h3>
+                <a href="../img/rozi-logo@2x.bba7dba3.png"></a>
+                <a href="../img/zenez-logo@2x.af3ba664.png"></a>
+                <a href="../img/gohyo-logo@2x.36a716da.png"></a>
+                <h4>关注我们</h4>
+                <span class="iconfont icon-weibo-copy
+                "></span>
+                <span class="iconfont icon-weixin"></span>
+            </div>
+            <div class="box box3">
+                <h3>帮助中心</h3>
+                <h5><a href="">免责声明</a></h5>
+                <h5><a href="">退货与退款</a></h5>
+                <h5><a href="">消费者告知书</a></h5>
+                <h5><a href="">常见问题</a></h5>
+                <h5><a href="">隐私政策</a></h5>
+                <h5><a href="">法律条款</a></h5>
+            </div>
+            <div class="box box4">
+                <h3>关于 Gshopper</h3>
+                <h5><a href="">联系我们</a></h5>
+                <h5><a href="">企业信息</a></h5>
+            </div>
+        </div>
+        <div class="foot-down">
+            <div class="partners">
+                <a href=""><img src="https://ws.izenecdn.com/st/wapsite/img/mcafee.c3749f93.svg" alt=""></a>
+                <a href=""><img src="../img/partner2.png" alt=""></a>
+                <a href=""><img src="../img/partner3.png" alt=""></a>
+                <a href=""><img src="../img/partner4.png" alt=""></a>
+                <a href=""><img src="../img/partner5.png" alt=""></a>
+                <a href=""><img src="../img/partner6.png" alt=""></a>
+            </div>
+            <div class="foot-down-msg">
+                <p>沪 ICP 备 B2-20130065&nbsp;&nbsp;&nbsp;<img src="../img/gongan.d0289dc0.png" alt="">沪公网安备 31011502008503 号&nbsp;&nbsp;&nbsp;<img class="img2" src="../img/business-icon.cd20b57f.png" alt="">&nbsp;&nbsp;&nbsp;上海载和网络科技有限公司</p>
+                <p>中国（上海）自由贸易试验区东方路1217、1217-1号6幢6楼F-3</p>
+                <span>Copyright © 2020 Gshopper. All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $("input[type=text]").focus(function(){
+            $(".login .email").css("border-color","#F56C6C")
+            $(".login .pwd").css("border-color","#DCDFE6")
+        })
+        $("input[type=password]").focus(function(){
+            $(".login .pwd").css("border-color","#F56C6C")
+            $(".login .email").css("border-color","#DCDFE6")
+        })
+        $(".loginWays span").click(function(){
+            $(".loginWays span").removeClass("active");
+            $(this).addClass("active");
+        })
+        $(".loginWays span").eq(0).click(function(){
+            $(".login .tel").css("display","none")
+            $(".login .email").css("display","block")
+        })
+        $(".loginWays span").eq(1).click(function(){
+            $(".login .email").css("display","none")
+            $(".login .tel").css("display","block")
+        });
+        var flag = 0;
+        $(".icon-yincangbukejian").click(function(){
+            if(flag === 0){
+                $(".pwd input").attr("type","password");
+                flag =1;
+            }else{
+                $(".pwd input").attr("type","text");
+                flag =0;
+            }
+        })
+        let $check = $(".check .checkbox");
+        var a = 0;
+        $check.click(function(){
+            if(a===0){
+                $(this).css({"background":"#FF5224","border-color":"#FF5224"})
+                a=1;
+            }else{
+                $(this).css({"background":"white","border-color":"#cbcbcb"})
+                a=0;
+            }
+        })
+        $(".email #mail").on("input",function(){
+            var reg = /^[0-9a-zA-Z]{4,9}@[\da-zA-Z]{2,9}\.[a-zA-Z]{2,4}$/;
+            if(reg.test($(this).val()) || $(this).val()===""){
+                $(".tips1").css("display","none")
+            }else{
+                $(".tips1").css({"display":"block","margin":"-10px 0 10px 0"})
+            }
+        })
+        $(".pwd #pwd").on("input",function(){
+            if($(this).val()===""){
+                $(".tips2").css({"display":"block","margin":"10px 0 10px 0"})
+            }else{
+                $(".tips2").css({"display":"none"})
+            }
+        })
+        $(".pwd #pwd").on("input",function(){
+            if($(this).val()===""){
+                $(".tips2").css({"display":"block","margin":"-10px 0 10px 0"})
+            }else{
+                $(".tips2").css({"display":"none"})
+            }
+        })
+        let $email = $(".email #mail");
+        let $pwd1 = $(".pwd #pwd");
+        let $login = $(".loginBtn");
+        let $register = $(".registerBtn");
+        $login.click(function(){
+            var userEmail = $email.val();
+            var userPwd1 = $pwd1.val();
+            if(!userEmail){
+                alert("邮箱不能为空");
+                return;
+            }
+            let cookieStr = $.cookie('register') ? $.cookie('register') : '';
+            let cookieObj = convertCookieStrToCookieObj(cookieStr);
+            if(userEmail in cookieObj){
+                if(cookieObj[userEmail] === userPwd1){
+                    alert("登录成功");
+                    location.href = "http://localhost/projectTest/dist/index.html"
+                }else{
+                    alert("请确认您的密码是否正确！");
+                }
+            }else{
+                alert('该用户不存在！');
+            }
+            var loginObj = {};
+            loginObj[userEmail]=userPwd1
+            console.log(loginObj)
+            $.cookie('login',JSON.stringify(loginObj),{expires : 7,path : '/'});
+        })
+        $register.click(function(){
+            location.href = "http://localhost/projectTest/dist/pages/register.html"
+        })
+        function convertCookieStrToCookieObj(str){
+            if(!str){
+                return {};
+            }
+            return JSON.parse(str);
+        }
+    </script>
+</body>
+</html>

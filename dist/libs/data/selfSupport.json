@@ -1,0 +1,44 @@
+[
+    {
+        "cosmetic_id":1,
+        "introduce":"ReFa S CARAT 眼部淡纹护理滚轮按摩仪",
+        "img":"http://localhost/projectTest/dist/img/selfSupport1.jpeg",
+        "price":"373.10",
+        "assess":6
+    },
+    {
+        "selfSupport_id":2,
+        "introduce":"怡思丁 多维光护沁融水感防晒液SPF 50+",
+        "img":"http://localhost/projectTest/dist/img/selfSupport2.jpeg",
+        "price":"539.10",
+        "assess":4
+    },
+    {
+        "selfSupport_id":3,
+        "introduce":"资生堂SHISEIDO 安耐晒Anessa 防晒露 SPF50+ PA++++ 金瓶 2018版",
+        "img":"http://localhost/projectTest/dist/img/selfSupport3.jpeg",
+        "price":"695.05",
+        "assess":4
+    },
+    {
+        "selfSupport_id":4,
+        "introduce":"悦诗风吟绿茶精萃平衡柔肤露",
+        "img":"http://localhost/projectTest/dist/img/selfSupport4.jpeg",
+        "price":"138.25",
+        "assess":3
+    },
+    {
+        "selfSupport_id":5,
+        "introduce":"Mandom beauty曼丹婴儿肌面膜 蓝新 玻尿酸保湿收缩毛孔",
+        "img":"http://localhost/projectTest/dist/img/selfSupport5.jpeg",
+        "price":"125.61",
+        "assess":5
+    },
+    {
+        "selfSupport_id":6,
+        "introduce":"SK-II 小红瓶面部紧致精华露",
+        "img":"http://localhost/projectTest/dist/img/selfSupport6.jpeg",
+        "price":"125.61",
+        "assess":4
+    }
+]

@@ -1,0 +1,116 @@
+[
+    {
+        "country_id":1,
+        "name":"中国",
+        "currency":"CNY ¥",
+        "img":"http://localhost/projectTest/dist/img/cn.png"
+    },
+    {
+        "country_id":2,
+        "name":"澳大利亚",
+        "currency":"AUD $",
+        "img":"http://localhost/projectTest/dist/img/au.png"
+    },
+    {
+        "country_id":3,
+        "name":"比利时",
+        "currency":"EUR €",
+        "img":"http://localhost/projectTest/dist/img/be.png"
+    },
+    {
+        "country_id":4,
+        "name":"法国",
+        "currency":"EUR €",
+        "img":"http://localhost/projectTest/dist/img/fr.png"
+    },
+    {
+        "country_id":5,
+        "name":"德国",
+        "currency":"EUR €",
+        "img":"http://localhost/projectTest/dist/img/de.png"
+    },
+    {
+        "country_id":6,
+        "name":"香港",
+        "currency":"HKD $",
+        "img":"http://localhost/projectTest/dist/img/hk.png"
+    },
+    {
+        "country_id":7,
+        "name":"意大利",
+        "currency":"EUR €",
+        "img":"http://localhost/projectTest/dist/img/it.png"
+    },
+    {
+        "country_id":8,
+        "name":"日本",
+        "currency":"JPY ¥",
+        "img":"http://localhost/projectTest/dist/img/jp.png"
+    },
+    {
+        "country_id":9,
+        "name":"荷兰",
+        "currency":"EUR €",
+        "img":"http://localhost/projectTest/dist/img/nl.png"
+    },
+    {
+        "country_id":10,
+        "name":"新西兰",
+        "currency":"NZD $",
+        "img":"http://localhost/projectTest/dist/img/nz.png"
+    },
+    {
+        "country_id":11,
+        "name":"菲律宾",
+        "currency":"PHP ₱",
+        "img":"http://localhost/projectTest/dist/img/ph.png"
+    },
+    {
+        "country_id":12,
+        "name":"波兰",
+        "currency":"PLN zł",
+        "img":"http://localhost/projectTest/dist/img/pl.png"
+    },
+    {
+        "country_id":13,
+        "name":"葡萄牙",
+        "currency":"EUR €",
+        "img":"http://localhost/projectTest/dist/img/pt.png"
+    },
+    {
+        "country_id":14,
+        "name":"俄罗斯",
+        "currency":"RUB ₽",
+        "img":"http://localhost/projectTest/dist/img/ru.png"
+    },
+    {
+        "country_id":15,
+        "name":"新加坡",
+        "currency":"SGD $",
+        "img":"http://localhost/projectTest/dist/img/sg.png"
+    },
+    {
+        "country_id":16,
+        "name":"韩国",
+        "currency":"KRW ₩",
+        "img":"http://localhost/projectTest/dist/img/kr.png"
+    },
+    {
+        "country_id":17,
+        "name":"西班牙",
+        "currency":"EUR €",
+        "img":"http://localhost/projectTest/dist/img/es.png"
+    },
+    {
+        "country_id":18,
+        "name":"英国",
+        "currency":"GBP £",
+        "img":"http://localhost/projectTest/dist/img/gb.png"
+    },
+    {
+        "country_id":19,
+        "name":"美国",
+        "currency":"USD $",
+        "img":"http://localhost/projectTest/dist/img/us.png"
+    }
+]

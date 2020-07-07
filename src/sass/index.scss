@@ -1,0 +1,280 @@
+@import 'public';
+nav{
+    width: 1300px;
+    margin: 2px auto 0;
+    display: flex;
+    padding: 25px 0;
+    a{
+        text-decoration: none;
+        color: #262626;
+        margin-right: 32px;
+        &:hover{
+            color: orange;
+        }
+    }
+}
+.banner{
+    z-index: 1;
+    .swiper-container {
+        width: 1300px;
+        height: 420px;
+        --swiper-pagination-color: #ff5224;
+        --swiper-navigation-color: white;/* 单独设置按钮颜色 */
+        --swiper-navigation-size: 16px;/* 设置按钮大小 */
+        &:hover .swiper-button-prev{
+            opacity: 0.7;
+            margin-left: 15px;
+        }
+        &:hover .swiper-button-next{
+            opacity: 0.7;
+            margin-right: 15px;
+        }
+        .swiper-button-prev{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: grey;
+            margin-top: -15px;
+            opacity: 0;
+            transition: all .7s;
+        }
+        .swiper-button-next{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: grey;
+            margin-top: -15px;
+            opacity: 0;
+            transition: all 1s;
+        }
+    } 
+}
+.brands{
+    width: 1300px;
+    margin: 24px auto 0;
+    .brands-top{
+        height: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .lef{
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 32px;
+        }
+        .rig{
+            a{
+                text-decoration: none;
+                span{
+                    color: orange;
+                }
+            }
+        }
+    }
+    .brands-mid{
+        width: 1300px;
+        height: 216px;
+        margin: 0 auto;
+        padding-left: 30px;
+        display: flex;
+        align-items: center;
+        li{
+            list-style:none;
+            flex: 1;
+            img{
+                width: 75%;
+                transition: all 0.5s;
+                &:hover{
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+.lego{
+    width: 1300px;
+    margin: 24px auto 0;
+    .lego-top{
+        height: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .lef{
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 32px;
+        }
+        .rig{
+            a{
+                text-decoration: none;
+                span{
+                    color: orange;
+                }
+            }
+        }
+    }
+    .lego-down{
+        display: flex;
+        .lego-msg{
+            list-style: none;
+            width: calc(1300px / 6);
+            img{
+                margin-left: 10%;
+                width: 80%;
+                margin-bottom: 20px;
+            }
+            p{
+                margin-left: 10%;
+                width: 80%;
+                font-size: 14px;
+                .iconfont{
+                    color: #fec632;
+                }
+            }
+            .introduce{
+                margin-bottom: 12px;
+                &:hover{
+                    color:#ff5224;
+                }
+            }
+            .price{
+                margin-bottom: 5px;
+                font-weight: 600;
+                color:#ff5224;
+                font-size: 16px;
+            }
+            .assess{
+                color: #a6a6a6;
+                font-size: 12px;
+                :nth-child(5){
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+.cosmetic{
+    width: 1300px;
+    margin: 24px auto 0;
+    .cosmetic-top{
+        height: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .lef{
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 32px;
+        }
+        .rig{
+            a{
+                text-decoration: none;
+                span{
+                    color: orange;
+                }
+            }
+        }
+    }
+    .cosmetic-down{
+        display: flex;
+        .cosmetic-msg{
+            list-style: none;
+            width: calc(1300px / 6);
+            img{
+                margin-left: 10%;
+                width: 80%;
+                margin-bottom: 20px;
+            }
+            p{
+                margin-left: 10%;
+                width: 80%;
+                font-size: 14px;
+                .iconfont{
+                    color: #fec632;
+                }
+            }
+            .introduce{
+                margin-bottom: 12px;
+                &:hover{
+                    color:#ff5224;
+                }
+            }
+            .price{
+                margin-bottom: 5px;
+                font-weight: 600;
+                color:#ff5224;
+                font-size: 16px;
+            }
+            .assess{
+                color: #a6a6a6;
+                font-size: 12px;
+                :nth-child(5){
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+.self-support{
+    width: 1300px;
+    margin: 24px auto 0;
+    .self-support-top{
+        height: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .lef{
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 32px;
+        }
+        .rig{
+            a{
+                text-decoration: none;
+                span{
+                    color: orange;
+                }
+            }
+        }
+    }
+    .self-support-down{
+        display: flex;
+        .selfSupport-msg{
+            list-style: none;
+            width: calc(1300px / 6);
+            img{
+                margin-left: 10%;
+                width: 80%;
+                margin-bottom: 20px;
+            }
+            p{
+                margin-left: 10%;
+                width: 80%;
+                font-size: 14px;
+                .iconfont{
+                    color: #fec632;
+                }
+            }
+            .introduce{
+                margin-bottom: 12px;
+                &:hover{
+                    color:#ff5224;
+                }
+            }
+            .price{
+                margin-bottom: 5px;
+                font-weight: 600;
+                color:#ff5224;
+                font-size: 16px;
+            }
+            .assess{
+                color: #a6a6a6;
+                font-size: 12px;
+                margin-bottom: 53px;
+                :nth-child(5){
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}

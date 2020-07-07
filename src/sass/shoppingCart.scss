@@ -1,0 +1,97 @@
+@import "public";
+body{
+    background: #f5f5f5;
+}
+.cosmetic{
+    width: 1300px;
+    margin: 24px auto 50px;
+    .cosmetic-top{
+        height: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .lef{
+            font-weight: bold;
+            line-height: 32px;
+        }
+        .rig{
+            a{
+                text-decoration: none;
+                span{
+                    color: orange;
+                }
+            }
+        }
+    }
+    .cosmetic-down{
+        display: flex;
+        .cosmetic-msg{
+            list-style: none;
+            width: calc(1300px / 6);
+            img{
+                margin-left: 10%;
+                width: 80%;
+                margin-bottom: 20px;
+            }
+            p{
+                margin-left: 10%;
+                width: 80%;
+                font-size: 14px;
+                .iconfont{
+                    color: #fec632;
+                }
+            }
+            .introduce{
+                margin-bottom: 12px;
+                &:hover{
+                    color:#ff5224;
+                }
+            }
+            .price{
+                margin-bottom: 5px;
+                font-weight: 600;
+                color:#ff5224;
+                font-size: 16px;
+            }
+            .assess{
+                color: #a6a6a6;
+                font-size: 12px;
+                :nth-child(5){
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+.nothing{
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    .iconfont{
+        color: #919191;
+        background: #E8E8E8;
+        border-radius: 50%;
+        font-size: 80px;
+    }
+    p{
+        margin-top: 16px;
+        font-size: 18px;
+    }
+    .btn{
+        display: block;
+        text-decoration: none;
+        margin: 30px auto 0;
+        width: 210px;
+        height: 46px;
+        background: rgb(255,82,36);
+        line-height: 46px;
+        color: white;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: all 0.5s;
+        &:hover{
+            background:rgb(255,117,34);
+        }
+    }
+}

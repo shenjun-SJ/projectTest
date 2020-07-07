@@ -1,0 +1,179 @@
+@import "public";
+.register{
+    width: 460px;
+    margin: 0 auto;
+    padding: 65px 0 0;
+    h2{
+        margin-bottom: 50px;
+    }
+    .registerWays{
+        display: flex;
+        span{
+            color:#595959;
+            margin-right: 25px;
+            cursor: pointer;
+        }
+        .active{
+            color: #FF5224;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #FF5224;
+        }
+    }
+    .email{
+        border: 1px solid #DCDFE6;
+        border-radius: 3px;
+        width: 445px;
+        height: 56px;
+        line-height: 56px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        input{
+            width: 300px;
+            border:none;
+            outline: none;
+            caret-color:#F56C6C;
+        }
+    }
+    .tel{
+        border: 1px solid #DCDFE6;
+        border-radius: 3px;
+        width: 445px;
+        height: 56px;
+        line-height: 56px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+        margin-top: 30px;
+        display: none;
+        input{
+            width: 300px;
+            border:none;
+            outline: none;
+            caret-color:#F56C6C;
+        }
+    }
+    .bBox{
+        display: flex;
+    }
+    .code{
+        border: 1px solid #DCDFE6;
+        border-radius: 3px;
+        width: 262px;
+        height: 56px;
+        line-height: 56px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        display: none;
+        input{
+            width: 200px;
+            border:none;
+            outline: none;
+            caret-color:#F56C6C;
+        }
+    }
+    .random{
+        width: 150px;
+        height: 56px;
+        border: 1px solid #DCDFE6;
+        display: none;
+        line-height: 56px;
+        margin: 10px 0 20px 30px;
+        border-radius: 3px;
+        text-align: center;
+        line-height: 56px;
+        cursor: pointer;
+    }
+    .pwd{
+        border: 1px solid #DCDFE6;
+        border-radius: 3px;
+        width: 445px;
+        height: 56px;
+        line-height: 56px;
+        padding-left: 15px;
+        margin-bottom: 20px;
+        input{
+            width: 300px;
+            border:none;
+            outline: none;
+            caret-color:#F56C6C;
+        }
+        .iconfont{
+            float: right;
+            margin-right: 15px;
+            color: #BCBCBC;
+            cursor: pointer;
+        }
+    }
+    .tips{
+        color: #F56C6C;
+        font-size: 12px;
+        display: none;
+    }
+    .confirm{
+        border: 1px solid #DCDFE6;
+        border-radius: 3px;
+        width: 445px;
+        height: 56px;
+        line-height: 56px;
+        padding-left: 15px;
+        input{
+            width: 300px;
+            border:none;
+            outline: none;
+            caret-color:#F56C6C;
+        }
+        .iconfont{
+            float: right;
+            margin-right: 15px;
+            color: #BCBCBC;
+            cursor: pointer;
+        }
+    }
+    .check{
+        display: flex;
+        align-items: center;
+        margin-top: 25px;
+        margin-bottom: -20px;
+        .checkbox{
+            display: block;
+            width: 15px;
+            height: 15px;
+            color:white;
+            border: 1px solid #cbcbcb;
+            border-radius: 3px;
+            text-align: center;
+            line-height: 15px;
+            cursor: default;
+            margin-right: 13px;
+            cursor: pointer;
+        }
+        em{
+            font-style: normal;
+            font-size: 12px;
+            line-height: 12px;
+            color: #282828;
+        }
+        i{
+            font-style: normal;
+            color: #FF5224;
+            cursor: pointer;
+            font-size: 12px;
+        }
+    }
+    .registerBtn{
+        height: 46px;
+        border-radius: 5px;
+        background: rgb(255,82,36);
+        color: white;
+        text-align: center;
+        line-height: 46px;
+        margin-top: 40px;
+        cursor: pointer;
+        transition: all .5s;
+        margin-bottom: 55px;
+        &:hover{
+            background:rgb(255,117,34);
+        }
+    }
+}

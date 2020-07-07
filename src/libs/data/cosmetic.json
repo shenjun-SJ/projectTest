@@ -1,0 +1,44 @@
+[
+    {
+        "cosmetic_id":1,
+        "introduce":"澳洲CEMOY 水乳套装 120ml+120ml",
+        "img":"http://localhost/projectTest/dist/img/cosmetic1.jpeg",
+        "price":"373.10",
+        "assess":6
+    },
+    {
+        "cosmetic_id":2,
+        "introduce":"科颜氏 亚马逊白泥清洁面膜 125ml",
+        "img":"http://localhost/projectTest/dist/img/cosmetic2.jpeg",
+        "price":"539.10",
+        "assess":4
+    },
+    {
+        "cosmetic_id":3,
+        "introduce":"曼秀雷敦薄荷润唇者喱+薄荷润唇膏 (BOGOF Pack)8+3.5g",
+        "img":"http://localhost/projectTest/dist/img/cosmetic3.jpeg",
+        "price":"695.05",
+        "assess":4
+    },
+    {
+        "cosmetic_id":4,
+        "introduce":"澳洲 CEMOY白金流明洗面奶氨基酸洁面 100ml",
+        "img":"http://localhost/projectTest/dist/img/cosmetic4.jpeg",
+        "price":"138.25",
+        "assess":3
+    },
+    {
+        "cosmetic_id":5,
+        "introduce":"SK-II 肌源赋活修护精华露 50ml",
+        "img":"http://localhost/projectTest/dist/img/cosmetic5.jpeg",
+        "price":"125.61",
+        "assess":5
+    },
+    {
+        "cosmetic_id":6,
+        "introduce":"泰国ATREUS山竹蚕丝保湿补水面膜",
+        "img":"http://localhost/projectTest/dist/img/cosmetic6.jpeg",
+        "price":"125.61",
+        "assess":4
+    }
+]
